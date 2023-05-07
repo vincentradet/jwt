@@ -1,0 +1,10 @@
+@use "../../assets/styles/mixins" as mixin;
+
+.header {
+  position: relative;
+  padding: 10px 20px;
+  height: 58px;
+  background-color: white;
+  box-shadow: var(--box-shadow-nav);
+  color: var(--primary);
+}
